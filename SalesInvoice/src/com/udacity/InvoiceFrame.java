@@ -385,7 +385,7 @@ public class InvoiceFrame extends javax.swing.JFrame implements ActionListener, 
                 lines += "\n";
             }
         }
-        JOptionPane.showMessageDialog(this, "Please, select file to save header data!", "Attension", JOptionPane.WARNING_MESSAGE);
+        JOptionPane.showMessageDialog(this, "Please, select file to save header data!", "Attention", JOptionPane.WARNING_MESSAGE);
         JFileChooser fileChooser = new JFileChooser();
         int result = fileChooser.showSaveDialog(this);
         if (result == JFileChooser.APPROVE_OPTION) {
